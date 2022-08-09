@@ -15,13 +15,10 @@ class BasicDocument:
         self.__createDate
         self.__company
 
-   # def document_verification(self):
 
-   #     docUuid = uuid.uuid4()
-   #     createDate = time.time()
-
-   #     print(docUuid)
-   #     print(createDate)
-
-
+#Creating a document and generating a UUID4 and Unix Time for it, then printing the result for diagnostic checking
 myDoc = BasicDocument
+myDoc.docUuid = uuid.uuid4()
+myDoc.createDate = time.time()
+
+print("The document UUID4 is " + str(myDoc.docUuid) + " and the Unix Time is " + str(myDoc.createDate))
