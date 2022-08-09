@@ -4,4 +4,9 @@ class DictManager:
         self.__path
         self.__config
 
-    
+    def __load_config(self):
+
+
+    def __save_config(self):
+
+        
